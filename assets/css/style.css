@@ -1,0 +1,22 @@
+.jumbotron{
+    text-align: center;
+    background-color: lightslategray;
+}
+
+.randomNumber{
+    text-align: center;
+}
+
+.box{
+    border: 5px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+body{
+    background-image: url("../images/circles-light.png")
+}
+
+.score{
+    margin-bottom: 30px;
+}
