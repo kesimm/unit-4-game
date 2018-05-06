@@ -15,32 +15,30 @@
                 <hr class="my-4">
                 <p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal, you will ad a specific amount of points to your total score. You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
                 <p>The value of each crystal is hidden until you click on the crystal. Each time the game restarts, the crystal's value changes!</p>
-                <button type="button" class="btn btn-primary">Let's Play!</button>
-                <button type="button" class="btn btn-secondary">Reset</button>
             </div>
 
             <div class="row">
               
               <div class="col-6">
                <div class="card">
-                    <div class="card-body""randomNumber">
-                      Your random number is: 
+                    <div class="card-body">
+                      <p class="randomNumber">Your Random Number is:</p>
                     </div>
                </div>
                </div>
 
                <div class="col-3">
                <div class="card">
-                   <div class="card-body""wins">
-                       Wins: 
-                   </div>
+                   <div class="card-body">
+                       <p class="wins">Wins:</p>
+                   </div> 
                </div>
                </div>
 
                <div class="col-3">
                     <div class="card">
-                        <div class="card-body""losses">
-                            Losses:
+                        <div class="card-body">
+                           <p class="losses">Losses:</p> 
                         </div>
                     </div>
                     </div>
@@ -49,16 +47,16 @@
             <div class="row">
                 
                 <div class="col-3">
-                    <img class="box" src="assets/images/blue.PNG">
+                    <img class="box" id="one" src="assets/images/blue.PNG">
                 </div>
                 <div class="col-3">
-                    <img class="box" src="assets/images/diamond.PNG">
+                    <img class="box" id="two" src="assets/images/diamond.PNG">
                 </div>
                 <div class="col-3">
-                    <img class= "box" src="assets/images/emerald.PNG">
+                    <img class= "box" id="three" src="assets/images/emerald.PNG">
                 </div>
                 <div class="col-3">
-                    <img class="box" src="assets/images/Ruby.PNG">
+                    <img class="box" id="four" src="assets/images/Ruby.PNG">
                 </div>
 
             </div>
@@ -67,19 +65,16 @@
                 <div class="col-6">
                     <div class="card">
                         <div class="card-body""score">Your Total Score is:</div>
+                        <p class="score"></p>
                     </div>
                 </div>
             </div>
 
 
 
-
-
-
-
-
-
       </div>
-  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
   </body>
 </html>

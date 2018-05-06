@@ -1,6 +1,6 @@
 .jumbotron{
     text-align: center;
-    background-color: lightslategray;
+    background-color: lightgoldenrodyellow;
 }
 
 .randomNumber{
@@ -17,6 +17,8 @@ body{
     background-image: url("../images/circles-light.png")
 }
 
+
 .score{
-    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20pt;
 }
